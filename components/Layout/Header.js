@@ -29,19 +29,11 @@ export default function Header() {
  
   const menu=(
     <>
-    <div className={classes.header}>
-      <div className={classes.mini}>
-      <div className={classes.empty}></div>
-      <div className={classes.centerr}>
-      <p onClick={(e)=>handleClick(e,"/home")}>Home</p>
-      <p onClick={(e)=>handleClick(e,"/home/#lore")}>Lore</p>
-      <p onClick={(e)=>handleClick(e,"/")}>Mint</p>
-      </div>
-      </div>
+    
       <div className={classes.mintbtn}>
       <WalletMultiButton />
       </div>
-    </div>
+    
     
     </>
   );
